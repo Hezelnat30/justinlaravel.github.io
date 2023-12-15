@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#about{
+    background-color: #f3f5f8;
+    padding-top: 7rem;
+    margin-top: -1px;
+    padding-left: 0; /* Tambahkan ini */
+    margin-left: 0;
+}
+
+#footer {
+    padding: 20px; /* Atur padding sesuai kebutuhan Anda */
+    flex-shrink: 0;
+    bottom: 0px;
+    margin-top: auto;
+}
+#siswa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#homepage {
+    min-height: 100vh; /* 100% dari tinggi viewport */
+    overflow-y: hidden; /* Menyembunyikan scrollbar vertikal jika ada */
+}
+
+.table-bottom {
+    height: 40px;
+    padding: 10px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+} 
+.table-container {
+    overflow-y: auto;
+} 
+
+
